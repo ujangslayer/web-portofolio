@@ -21,7 +21,7 @@ export default function Portfolio() {
   const [isLoading, setIsLoading] = useState(true);
 
   // Daftar kata untuk efek Typewriter dinamis
-  const words = ["Manajemen Informasi", "Software Developer", "Problem Solver"];
+  const words = ["Student", "Software Engineer", "Web Developer", "UI/UX Enthusiast", "Tech Explorer"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -264,11 +264,11 @@ export default function Portfolio() {
           {/* KOTAK SUB-JUDUL */}
           <div className={`hero-element mx-auto w-full max-w-xl p-8 rounded-[2rem] hover:bg-slate-900/80 transition-colors duration-500 ${glassClass}`}>
             <p className="text-base md:text-lg text-slate-400 leading-relaxed min-h-[56px] flex items-center justify-center">
-              Mahasiswa&nbsp;
+              &nbsp;
               <span className="font-bold text-cyan-400 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)] border-r-2 border-cyan-400 pr-1 animate-pulse whitespace-nowrap">
                 {currentText}
               </span>
-              &nbsp;yang merancang pengalaman digital cerdas, mulus, dan efisien.
+              &nbsp;yang lagi cari pengalaman.
             </p>
           </div>
         </div>
@@ -279,7 +279,7 @@ export default function Portfolio() {
         <div className="gsap-fade-up">
           <SparkleIcon />
           <h2 className="text-lg md:text-xl lg:text-2xl leading-tight font-medium text-slate-200">
-           Saya Fauzan Adzim, mahasiswa D3 Manajemen Informatika di <span className="text-cyan-400 font-bold">Universitas Lampung</span>. Fokus pada pengembangan web dan desain UI/UX. Aku sangat menikmati proses mengubah ide menjadi sistem yang intuitif dan fungsional. Saat ini, aku terus mengeksplorasi teknologi terbaru untuk menciptakan solusi digital yang efektif.
+           Saya Fauzan Adzim, mahasiswa D3 Manajemen Informatika di <span className="text-cyan-400 font-bold">Universitas Lampung</span>. Fokus saya sat ini yaitu pengembangan web dan desain UI/UX. Aku sangat menikmati proses mengubah ide menjadi sistem yang intuitif dan fungsional. Saat ini, aku terus mengeksplorasi teknologi terbaru untuk menciptakan solusi digital yang efektif.
           </h2>
           <div className="flex flex-wrap justify-center gap-4 mt-12">
             {['Management Informatics Student', 'Full-Stack Web Developer', 'UI/UX Enthusiast'].map((tag, i) => (
