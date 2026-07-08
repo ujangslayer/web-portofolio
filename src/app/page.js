@@ -278,7 +278,7 @@ export default function Portfolio() {
       <section id="about" className="py-32 px-6 max-w-5xl mx-auto text-center">
         <div className="gsap-fade-up">
           <SparkleIcon />
-          <h2 className="text-3xl md:text-4xl lg:text-5xl leading-tight font-medium text-slate-200">
+          <h2 className="text-lg md:text-xl lg:text-2xl leading-tight font-medium text-slate-200">
            Saya Fauzan Adzim, mahasiswa D3 Manajemen Informatika di <span className="text-cyan-400 font-bold">Universitas Lampung</span>. Fokus pada pengembangan web dan desain UI/UX. Aku sangat menikmati proses mengubah ide menjadi sistem yang intuitif dan fungsional. Saat ini, aku terus mengeksplorasi teknologi terbaru untuk menciptakan solusi digital yang efektif.
           </h2>
           <div className="flex flex-wrap justify-center gap-4 mt-12">
